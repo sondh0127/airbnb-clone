@@ -18,8 +18,10 @@ const getSearchFromValues = (values) => {
   let search = [];
 
   if (vLocation) {
-    const { lat, lng } = values.location.coordinates;
-    search.push(`lat=${lat}&lng=${lng}`);
+    if (values && values.location && values.location.coordinates) {
+      const { lat, lng } = values.location.coordinates;
+      search.push(`lat=${lat}&lng=${lng}`);
+    }
   }
   if (checkIn && checkOut) {
     const checkInVal = moment(checkIn).format('DD/MM/YYYY');

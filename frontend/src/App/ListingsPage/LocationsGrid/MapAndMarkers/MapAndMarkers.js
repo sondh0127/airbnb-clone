@@ -14,8 +14,14 @@ const MapAndMarkers = ({ listings, hoveredCardId }) => {
   const dispatch = useContext(DispatchContext);
 
   const center = {
-    lat: state.location ? state.location.coordinates.lat : 21.0251735,
-    lng: state.location ? state.location.coordinates.lng : 105.84967059999997,
+    lat:
+      state.location && state.location.coordinates
+        ? state.location.coordinates.lat
+        : 21.0251735,
+    lng:
+      state.location && state.location.coordinates
+        ? state.location.coordinates.lng
+        : 105.84967059999997,
   };
   const openMarkerPopup = (key) => {
     setClickedMarker(key);
