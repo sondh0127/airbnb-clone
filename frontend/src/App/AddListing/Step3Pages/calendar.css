@@ -1,0 +1,10 @@
+.CalendarDay {
+  font-size: 16px;
+}
+
+.DayPicker_weekHeader {
+  top: 74px;
+}
+.CalendarMonth_table {
+  margin-top: 14px;
+}

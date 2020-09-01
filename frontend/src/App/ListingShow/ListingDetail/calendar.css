@@ -1,0 +1,25 @@
+.CalendarDay__blocked_calendar,
+.CalendarDay__blocked_calendar:active,
+.CalendarDay__blocked_calendar:hover {
+    background: repeating-linear-gradient(
+            -45deg,
+            rgb(235, 235, 235),
+            rgb(235, 235, 235) 3px,
+            rgb(215, 215, 215) 3px,
+            rgb(215, 215, 215) 4px
+    );
+    color: rgb(0, 0, 0);
+    padding: 0px;
+}
+
+.CalendarDay__highlighted_calendar {
+  background: #ffe8bc;
+  color: #484848;
+}
+
+.CalendarDay__highlighted_calendar:hover {
+  background: #ffcb86;
+  color: #484848;
+}
+
+

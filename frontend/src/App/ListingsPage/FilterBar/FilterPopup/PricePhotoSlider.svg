@@ -1,0 +1,94 @@
+<svg width="144" height="79" viewBox="0 0 144 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>price</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1666 -798)">
+<g id="price">
+<g id="Rectangle 6">
+<use xlink:href="#path0_fill" transform="translate(1678 863)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 3">
+<use xlink:href="#path1_fill" transform="translate(1672 871)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 3">
+<use xlink:href="#path2_fill" transform="translate(1666 874)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy">
+<use xlink:href="#path3_fill" transform="translate(1684 857)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 2">
+<use xlink:href="#path0_fill" transform="translate(1690 863)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 4">
+<use xlink:href="#path4_fill" transform="translate(1696 845)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 5">
+<use xlink:href="#path5_fill" transform="translate(1702 835)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 6">
+<use xlink:href="#path6_fill" transform="translate(1708 821)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 7">
+<use xlink:href="#path7_fill" transform="translate(1714 808)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 8">
+<use xlink:href="#path8_fill" transform="translate(1720 798)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 9">
+<use xlink:href="#path7_fill" transform="translate(1726 808)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 10">
+<use xlink:href="#path7_fill" transform="translate(1732 808)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 11">
+<use xlink:href="#path7_fill" transform="translate(1738 808)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 12">
+<use xlink:href="#path6_fill" transform="translate(1744 821)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 13">
+<use xlink:href="#path5_fill" transform="translate(1750 835)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 14">
+<use xlink:href="#path5_fill" transform="translate(1756 835)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 15">
+<use xlink:href="#path9_fill" transform="translate(1762 842)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 16">
+<use xlink:href="#path4_fill" transform="translate(1768 845)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 17">
+<use xlink:href="#path3_fill" transform="translate(1774 857)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 18">
+<use xlink:href="#path10_fill" transform="translate(1780 867)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 19">
+<use xlink:href="#path0_fill" transform="translate(1786 863)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 20">
+<use xlink:href="#path3_fill" transform="translate(1792 857)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 21">
+<use xlink:href="#path1_fill" transform="translate(1798 871)" fill="#D8D8D8"/>
+</g>
+<g id="Rectangle 6 Copy 22">
+<use xlink:href="#path11_fill" transform="translate(1804 876)" fill="#D8D8D8"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 6 0L 6 14L 0 14L 0 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 6 0L 6 6L 0 6L 0 0Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 0 0L 6 0L 6 3L 0 3L 0 0Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 0 0L 6 0L 6 20L 0 20L 0 0Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 0 0L 6 0L 6 32L 0 32L 0 0Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 0 0L 6 0L 6 42L 0 42L 0 0Z"/>
+<path id="path6_fill" fill-rule="evenodd" d="M 0 0L 6 0L 6 56L 0 56L 0 0Z"/>
+<path id="path7_fill" fill-rule="evenodd" d="M 0 0L 6 0L 6 69L 0 69L 0 0Z"/>
+<path id="path8_fill" fill-rule="evenodd" d="M 0 0L 6 0L 6 79L 0 79L 0 0Z"/>
+<path id="path9_fill" fill-rule="evenodd" d="M 0 0L 6 0L 6 35L 0 35L 0 0Z"/>
+<path id="path10_fill" fill-rule="evenodd" d="M 0 0L 6 0L 6 10L 0 10L 0 0Z"/>
+<path id="path11_fill" fill-rule="evenodd" d="M 0 0L 6 0L 6 1L 0 1L 0 0Z"/>
+</defs>
+</svg>

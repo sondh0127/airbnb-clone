@@ -1,0 +1,70 @@
+version: '3.5'
+services:
+  database:
+    container_name: database
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_USER: username
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: BnBDb
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    expose:
+      - "3306"
+    volumes:
+      - database:/var/lib/mysql
+    command: ['mysqld', '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci']
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+      PMA_HOST: database
+      MYSQL_USER: username
+      MYSQL_PASSWORD: password
+    ports:
+      - 9000:80
+    depends_on:
+      - database
+  redis:
+    container_name: redis
+    image: redis:4.0.5-alpine
+    restart: always
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+
+  backend:
+    image: sondh0127/bnb_backend:latest
+    environment:
+      FLASK_ENV: production
+      FLASK_APP: bnbgotit.py
+      FLASK_DEBUG: 0
+    restart: always
+    ports:
+      - "5000:5000"
+    expose:
+      - '5000'
+    depends_on:
+      - database
+
+  frontend:
+    image: sondh0127/bnb_frontend:latest
+    restart: always
+    deploy:
+      replicas: 2
+    depends_on:
+      - backend
+    environment:
+       NODE_ENV: production
+    ports:
+      - '3000:3000'
+    expose:
+      - '3000'
+
+volumes:
+  database:
+  redis-data:

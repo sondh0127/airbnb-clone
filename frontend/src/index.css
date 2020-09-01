@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Varela Round', sans-serif;
+
+  font-size: 14px;
+  color: #484848;
+  text-decoration: none;
+  outline: none;
+  background-color: #fff;
+}
+
+body.modal-open {
+  overflow: hidden;
+  position: fixed;
+}
+textarea {
+  overflow: hidden;
+}
+.slick-dots li button:before {
+  color: white !important;
+}
