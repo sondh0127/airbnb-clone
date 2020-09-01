@@ -1,19 +1,9 @@
-
 {
+  "plugins": ["prettier"],
   "extends": ["react-app", "plugin:prettier/recommended"],
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "printWidth": 90,
-        "tabWidth": 2,
-        "singleQuote": true,
-        "arrowParens": "always",
-        "trailingComma": "es5"
-
-      }
-    ],
+    "prettier/prettier": ["error", {}, { "usePrettierrc": true }],
     "react/jsx-pascal-case": 0,
-    "no-unused-vars": [1, {"vars": "local", "args": "after-used"}]
+    "no-unused-vars": [1, { "vars": "local", "args": "after-used" }]
   }
 }
