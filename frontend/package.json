@@ -6,7 +6,7 @@
     "@material-ui/core": "^4.0.0-rc.0",
     "@material-ui/icons": "^4.0.0-rc.0",
     "@material-ui/styles": "^4.0.0-rc.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "formik": "^1.5.1",
     "formik-material-ui": "0.0.16",
     "google-map-react": "^1.1.0",
