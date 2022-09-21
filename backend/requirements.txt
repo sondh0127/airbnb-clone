@@ -39,7 +39,7 @@ PyMySQL==0.9.3
 python-dateutil==2.8.0
 python-dotenv==0.10.1
 python-editor==1.0.4
-python-jwt==3.2.4
+python-jwt==3.3.4
 requests==2.21.0
 six==1.12.0
 SQLAlchemy==1.3.2
